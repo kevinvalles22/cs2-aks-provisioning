@@ -1,0 +1,15 @@
+#.gitignore
+# Directorios de inicialización local de Terraform
+.terraform/
+
+# Archivos de estado (¡Nunca deben subirse a Git!)
+#.tfstate
+#.tfstate.*
+
+# Archivos de variables con secretos
+*.tfvars
+*.tfvars.json
+
+# Archivos de volcado de fallos
+crash.log
+crash.log.*
